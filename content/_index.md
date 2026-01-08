@@ -1,0 +1,27 @@
+---
+title: "欢迎"
+date: 2026-01-08T17:58:00+08:00
+draft: false
+---
+
+# 欢迎来到我的博客
+
+这是一个使用 Hugo 静态网站生成器和 ananke 主题构建的个人博客。
+
+## 最新文章
+
+{{% range first 3 (where site.RegularPages "Type" "posts") %}}
+- [{{ .Title }}]({{ .RelPermalink }})
+{{% end %}}
+
+## 关于
+
+了解更多关于我的信息，请访问[关于页面](/about)。
+
+## 技术栈
+
+- **Hugo**: 快速的静态网站生成器
+- **ananke**: 精美的 Hugo 主题
+- **Vercel**: 现代化的部署平台
+
+感谢访问！

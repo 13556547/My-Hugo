@@ -1,0 +1,10 @@
+baseURL = "https://你的-vercel域名.vercel.app/"
+languageCode = "zh-CN"
+title = "我的Hugo博客"
+theme = "ananke"
+
+[params]
+  author = "你的名字"
+  description = "使用 Hugo 和 ananke 主题构建的个人博客"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
