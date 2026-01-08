@@ -8,12 +8,6 @@ draft: false
 
 这是一个使用 Hugo 静态网站生成器和 ananke 主题构建的个人博客。
 
-## 最新文章
-
-{{% range first 3 (where site.RegularPages "Type" "posts") %}}
-- [{{ .Title }}]({{ .RelPermalink }})
-{{% end %}}
-
 ## 关于
 
 了解更多关于我的信息，请访问[关于页面](/about)。
